@@ -1,0 +1,221 @@
+body, h1, h2, h3, h4, h5, p, ul, li, ol, form, textarea, select {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    font-family: 微软雅黑, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #e4e3e3;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background: #0a0d16;
+}
+
+.header-box {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header-box h1 {
+    height: 100%;
+    margin-right: 75px;
+    line-height: 56px;
+    font-weight: normal;
+    font-size: 26px;
+    float: left;
+}
+
+.nav {
+    height: 100%;
+    float: left;
+}
+
+.nav li {
+    float: left;
+    margin-right: 35px;
+    line-height: 56px;
+}
+
+.nav a:hover {
+    color: #00c1de;
+}
+
+.search {
+    width: 50px;
+    height: 100%;
+    background: rebeccapurple;
+    /*margin: 0 auto;*/
+    float: right;
+}
+/**/
+@media screen and (max-width: 1023px) {
+    article {
+        padding-top: 80px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .box, article {
+        width: 96%;
+    }
+}
+.whitebg {
+    background: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.htitle {
+    font-size: 16px;
+    line-height: 40px;
+    border-bottom: 1px solid #eee;
+    color: #484848;
+    font-weight: normal;
+    position: relative;
+    margin-bottom: 10px;
+}
+.htitle:after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    content: "";
+    background: #000;
+    left: 0;
+    bottom: 0;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.gbox {
+    padding: 0;
+    overflow: hidden;
+}
+.gbox p {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+textarea#lytext {
+    width: 99%;
+}
+.gbox i {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.gbox i input {
+    margin: 10px auto;
+    display: block;
+}
+.gbox input[type="submit"] {
+    display: block;
+    background: #040404;
+    color: #fff;
+    border: 0;
+    line-height: 30px;
+    padding: 0 20px;
+    border-radius: 5px;
+    float: right;
+}
+.fb ul {
+    margin: 10px 0;
+    padding: 20px 10px;
+    border-bottom: #ececec 1px solid;
+}
+span.tximg {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+p.fbtime {
+    color: #000;
+}
+.fbtime span {
+    float: right;
+    color: #999;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+p.fbinfo {
+    margin: 10px 0;
+}
+.hf {
+    padding-bottom: 20px;
+    border-bottom: #dedddd 1px dashed;
+}
+.hf ul {
+    padding: 10px 10px;
+    background: #f9f9f9;
+}
+.clear {
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    height: 20px;
+}
+.pagelist {
+    text-align: center;
+    color: #666;
+    width: 100%;
+    clear: both;
+    margin: 0 0 10px;
+}
+
+    /**/
+footer {
+        background: #373D41;
+        width: 100%;
+        border-top: #00C1DE 10px solid;
+        padding: 30px 0;
+        color: #73777a;
+        font-size: 14px;
+        overflow: hidden;
+}
+.box , article {
+        width: 1200px;
+        margin: auto;
+        overflow: hidden;
+}
+article{
+    margin-top: 20px;
+}
+.wxbox li {
+        float: left;
+        margin: 0 10px;
+        text-align: center;
+}
+.wxbox img {
+        height: 100px;
+        width: 100px;
+        display: block;
+}
+footer a {
+        color: #73777a;
+}
+.top {
+        width: 40px;
+        height: 40px;
+        display: block;
+        background: url(../image/top.jpg) no-repeat center #000;
+        right: 20px;
+        bottom: 10%;
+        position: fixed;
+}

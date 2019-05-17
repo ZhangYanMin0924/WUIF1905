@@ -1,0 +1,621 @@
+body, h1, h2, h3, h4, h5, p, ul, li, ol, form, textarea, select {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    font-family: 微软雅黑, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #e4e3e3;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    width: 100%;
+    height: 60px;
+    background: #0a0d16;
+}
+
+.header-box {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header-box h1 {
+    height: 100%;
+    margin-right: 75px;
+    line-height: 56px;
+    font-weight: normal;
+    font-size: 26px;
+    float: left;
+}
+
+.nav {
+    height: 100%;
+    float: left;
+}
+
+.nav li {
+    float: left;
+    margin-right: 35px;
+    line-height: 56px;
+}
+
+.nav a:hover {
+    color: #00c1de;
+}
+
+.search {
+    width: 50px;
+    height: 100%;
+    background: rebeccapurple;
+    /*margin: 0 auto;*/
+    float: right;
+}
+
+/*header */
+.content {
+    width: 1200px;
+    height: 260px;
+    background: #e4e3e3;
+    margin: 20px auto;
+}
+
+.left {
+    width: 900px;
+    height: auto;
+    min-height: 600px;
+    background: #e4e3e3;
+    float: left;
+    overflow: hidden;
+}
+.dairy {
+    background: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.dairy img {
+    height: 100px;
+    width: 130px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+.dairy h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.dairy p {
+    color: #666;
+    font-size: 15px;
+}
+.slide {
+    width: 244px;
+    background: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.slide > a {
+    display: block;
+    color: #333333;
+    margin: 30px 0 0 20px;
+    font-size: 15px;
+}
+
+.title {
+    height: 41px;
+    border-bottom: 1px solid #e4e3e3;
+    line-height: 41px;
+    color: #333;
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.title:hover::before{
+    width: 90px;
+}
+.title::before{
+    content: '';
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background: #000;
+    transition: all .5s ease-in;
+}
+.zuixin {
+    height: auto;
+    min-height: 300px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.zuixin .theFirst {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #EEEEEE;
+    min-height: 100px;
+    overflow: hidden;
+
+}
+.theFirst li{
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: #eee 1px dashed;
+    padding-bottom: 20px;
+    position: relative;
+    min-height: 120px;
+}
+.theFirst  li h3{
+    height: 18px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.theFirst li b {
+    color: red;
+}
+
+.theFirst li a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.theFirst .one{
+    float: left;
+    width: 23.2%;
+    margin-right: 20px;
+    display: block;
+    overflow: hidden;
+    border-radius: 3px;
+    position: relative;
+}
+.theFirst li .one >i {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-style: normal;
+    padding: 3px 5px;
+    background: #00c1de;
+    font-size: 14px;
+}
+
+.theFirst .two{
+    /*width: 632px;*/
+    /*height: 130px;*/
+    font-size: 14px;
+    margin-top: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    color: #666666;
+}
+
+.theFirst .three {
+    margin-top: 20px;
+    overflow: hidden;
+    color: #999999;
+    line-height: 34px;
+}
+
+.three span {
+    margin: 0 5px;
+}
+
+.three span a {
+    color: #096;
+}
+
+.v {
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding: 2px;
+    display: block;
+}
+
+.v::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    right: 0;
+    bottom: 0;
+    background-size: 12px;
+}
+
+.v span {
+    margin: 0 5px;
+}
+
+.v span a {
+    color: #009966;
+}
+
+.theFirst li > a {
+    border-radius: 3px;
+    padding: 3px 10px;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    background: #12b7de;
+    color: #FFFFFF;
+    display: block;
+}
+
+.right {
+    width: 284px;
+    height: auto;
+    min-height: 600px;
+    background: #e4e3e3;
+    float: right;
+}
+.slide .phtu {
+    height: 110px;
+    border-radius: 3px;
+    margin: 20px 0;
+    background: burlywood;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.phtu a {
+    width: 100%;
+    height: 110px;
+    display: block;
+    position: relative;
+}
+.phtu a img{
+    transition: transform .2s ease-in;
+}
+.phtu a:hover img{
+    transform: scale(1.2,1.2);
+}
+
+.phtu a span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30%;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 40px;
+    line-height: 22px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.phList {
+    overflow: hidden;
+}
+
+.phList li {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.phList li a{
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #333333;
+    font-size: 15px;
+}
+
+.phList li i {
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-top: 8px;
+    margin-right: 10px;
+    position: relative;
+    float: left;
+    font-style: normal;
+    background: #b1b1b1;
+}
+
+.phList li i::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 9px;
+    color: #FFFFFF;
+    width: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.phList li:first-child i, .phList li:nth-child(2) i, .phList li:nth-child(3) i {
+    background: #ff6600;
+}
+
+.phList li:first-child i::before {
+    content: '1';
+}
+
+.phList li:nth-child(2) i::before {
+    content: '2';
+}
+
+.phList li:nth-child(3) i::before {
+    content: '3';
+}
+.zztu {
+    height: 110px;
+    border-radius: 3px;
+    margin: 20px 0;
+    background: burlywood;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.zztu a {
+    width: 100%;
+    height: 110px;
+    display: block;
+}
+.zztu a img{
+    transition: transform .2s ease-in;
+}
+.zztu a:hover img{
+    transform: scale(1.2,1.2);
+}
+.zztu .zzz span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30%;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 40px;
+    line-height: 22px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.gx {
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.gx li {
+    overflow: hidden;
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+.gx li a img{
+    transition: transform .2s ease-in;
+}
+.gx li a:hover img{
+    transform: scale(1.2,1.2);
+}
+.gx li a {
+    display: block;
+    color: #333333;
+    font-size: 14px;
+}
+
+.gx li i {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+
+.gx li i p {
+    margin-top: 10px;
+    line-height: 20px;
+    max-height: 40px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.titleYun a {
+    line-height: 24px;
+    height: 24px;
+    display: block;
+    background: #999;
+    float: left;
+    padding: 3px 10px;
+    margin: 10px 5px 0 0;
+    border-radius: 3px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #FFF;
+}
+.titleYun a:first-child {
+    background: #036564;
+}
+.titleYun a:nth-child(8n) {
+    background: #83AF9B;
+}
+.titleYun a:nth-child(8n-7) {
+    background: #8A9B0F;
+}
+.titleYun a:nth-child(8n-6) {
+    background: #EB6841;
+}
+.titleYun a:nth-child(8n-5) {
+    background: #3FB8AF;
+}
+.titleYun a:nth-child(8n-4) {
+    background: #FE4365;
+}
+.titleYun a:nth-child(8n-3) {
+    background: #FC9D9A;
+}
+.titleYun a:nth-child(8n-2) {
+    background: #EDC951;
+}
+.titleYun a:nth-child(8n-1) {
+    background: #C8C8A9;
+}
+.titleYun a:last-child {
+    background: #3299BB;
+}
+.jinxi {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.jinxi a{
+    overflow: hidden;
+    display: block;
+}
+.jinxi a img{
+    transition: transform .2s ease-in;
+}
+.jinxi a:hover img{
+    transform: scale(1.2,1.2);
+}
+
+.like li {
+    line-height: 22px;
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.like > li::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 3px;
+    background: #000;
+    border-radius: 10px;
+    left: 0px;
+    top: 10px;
+}
+.like li a{
+    color: #333333;
+    line-height: 22px;
+    font-size: 15px;
+}
+.jinxi2 {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.jinxi2 a{
+    overflow: hidden;
+    display: block;
+}
+.jinxi2 a img{
+    transition: transform .2s ease-in;
+}
+.jinxi2 a:hover img{
+    transform: scale(1.2,1.2);
+}
+.xinxi {
+    width: 100%;
+    height: 342px;
+    background: rebeccapurple;
+    margin-top: 10px;
+}
+.zdxx li{
+    margin-bottom: 8px;
+}
+.zdxx li b{
+    font-weight: bold;
+}
+.ewm {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.zdxx li a {
+    color: #096;
+}
+/*zuixin*/
+footer {
+    background: #373D41;
+    width: 100%;
+    border-top: #00C1DE 10px solid;
+    padding: 30px 0;
+    color: #73777a;
+    font-size: 14px;
+    overflow: hidden;
+}
+.box {
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.wxbox li {
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+}
+.wxbox img {
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+footer a {
+    color: #73777a;
+}
+.top {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: url(../image/top.jpg) no-repeat center #000;
+    right: 20px;
+    bottom: 10%;
+    position: fixed;
+}
