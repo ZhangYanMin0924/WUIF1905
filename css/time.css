@@ -151,6 +151,27 @@ img {
     overflow: hidden;
     height: 20px;
 }
+.page {
+    margin-top: 20px;
+}
+.page a:hover{
+    background: #333333;
+    color: #FFFFFF;
+}
+.pages{
+    text-align: center;
+    color: #666;
+    width: 100%;
+    clear: both;
+    margin: 0 0 10px;
+}
+.pages a {
+    color: #666;
+    margin: 0 5px 10px;
+    padding: 5px 10px;
+    background: #F7F7F7;
+    display: inline-block;
+}
 
 
 /**/
