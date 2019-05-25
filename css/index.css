@@ -520,7 +520,7 @@ img {
     padding: 20px;
     float: left;
     transition: all ease-in .15s;
-    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    /*box-shadow: 1px 1px 3px rgba(0,0,0,0.5);*/
 }
 .recommendList li:hover{
     box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
