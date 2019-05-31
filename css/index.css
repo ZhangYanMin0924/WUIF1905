@@ -127,7 +127,7 @@ img {
     z-index: 9999;
 }
 
-.btnList li {
+.btnList > li {
     border-radius: 50%;
     width: 10px;
     height: 10px;
@@ -135,7 +135,9 @@ img {
     float: left;
     margin-right: 14px;
 }
-
+.btnList > li.hot{
+    background: #04b680;
+}
 .ertu {
     width: 268px;
     height: 100%;
@@ -255,22 +257,25 @@ img {
     border-bottom: 1px solid #e4e3e3;
     overflow: hidden;
     padding: 10px 0;
-    position: relative;
 }
-.dairy-list::before{
+.new > a::before{
     content: '';
     width: 100px;
     height: 2px;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -10px;
     background: #000;
 }
-.dairy-list li {
+.dairy-list li a{
     float: left;
-    margin-right: 25px;
     font-size: 16px;
     color: #333;
+    position: relative;
+    display: block;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .diaryTab {
@@ -519,8 +524,7 @@ img {
     border-bottom: 1px solid #e4e3e3;
     padding: 20px;
     float: left;
-    transition: all ease-in .15s;
-    /*box-shadow: 1px 1px 3px rgba(0,0,0,0.5);*/
+    transition: all ease-in .5s;
 }
 .recommendList li:hover{
     box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
