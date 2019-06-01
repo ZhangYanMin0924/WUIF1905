@@ -83,14 +83,17 @@ img {
     background: rebeccapurple;
     margin-right: 12px;
     float: left;
+    overflow: hidden;
 }
 
 .banner-left-img > li {
     position: absolute;
-    left: 0;
+    left: 620px;
     top: 0;
 }
-
+.banner-left-img > li:first-child{
+    left: 0;
+}
 .banner-left-img > li > a {
     width: 620px;
     height: 260px;
@@ -134,6 +137,7 @@ img {
     background: #FFFFFF;
     float: left;
     margin-right: 14px;
+    transition: .5s;
 }
 .btnList > li.hot{
     background: #04b680;

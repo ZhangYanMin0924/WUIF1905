@@ -40,21 +40,20 @@ window.onload=function () {
     }
 
     let leftBtn=document.querySelector('.leftBtn');
-    let bannerImg1=document.querySelectorAll('.banner-left-img>li');
     leftBtn.onclick=function() {
         index--;
         if (index <0) {
-            index = bannerImg1.length-1;
+            index = bannerImg.length-1;
         }
         Array.prototype.forEach.call(lis,function (elem) {
             elem.classList.remove('hot');
         })
-        bannerImg1.forEach(function (elem) {
+        bannerImg.forEach(function (elem) {
             elem.style.zIndex = 1;
 
         })
         lis[index].classList.add('hot');
-        bannerImg1[index].style.zIndex = 999;
+        bannerImg[index].style.zIndex = 999;
     }
 
     let bannerLeft=document.querySelector('.banner-left');
