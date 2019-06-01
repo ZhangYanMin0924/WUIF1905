@@ -1,5 +1,12 @@
 window.onload=function () {
-
+    let home=document.getElementById('home');
+    home.onmouseenter=function () {
+        home.style.color='red';
+        console.log(1);
+    }
+    home.onmouseleave=function () {
+        home.style.color='#ffffff';
+    }
     // 轮播图
 
     let btnLists=document.getElementsByClassName('btnList');
