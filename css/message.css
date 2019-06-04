@@ -118,6 +118,7 @@ img {
 }
 textarea#lytext {
     width: 99%;
+    resize: none;
 }
 .gbox i {
     display: block;
@@ -138,6 +139,16 @@ textarea#lytext {
     border-radius: 5px;
     float: right;
 }
+/*.gbox input[type="reset"] {*/
+/*    display: block;*/
+/*    background: #040404;*/
+/*    color: #fff;*/
+/*    border: 0;*/
+/*    line-height: 30px;*/
+/*    padding: 0 20px;*/
+/*    border-radius: 5px;*/
+/*    float: right;*/
+/*}*/
 .fb ul {
     margin: 10px 0;
     padding: 20px 10px;
